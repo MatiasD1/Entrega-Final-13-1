@@ -1,0 +1,62 @@
+.CardItem {
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .CardItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .Header {
+    text-align: center;
+  }
+  
+  .ItemHeader {
+    margin: 0;
+    color: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+  }
+  
+  .ItemImg {
+    width: 100%;
+    height: 200px; 
+    object-fit: contain;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  
+  .Info {
+    margin: 8px 0;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .ItemFooter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Option {
+    display: block;
+    background-color: #8917ac;
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+  }
+  
+  .Option:hover {
+    background-color: #5e1171;
+  }
+  

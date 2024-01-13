@@ -1,0 +1,52 @@
+.Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cart h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Cart h3 {
+    font-size: 20px;
+    color: #4caf50;
+    margin-top: 20px;
+}
+
+.Cart .Button {
+    display: block;
+    background-color: #8917ac;
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.Cart .Button:hover {
+    background-color: #5e1171;
+}
+
+.Cart .Option {
+    display: block;
+    background-color: #8917ac;
+    color: #fff;
+    padding: 8px 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.Cart .Option:hover {
+    background-color: #5e1171;
+}

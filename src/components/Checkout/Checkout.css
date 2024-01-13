@@ -1,0 +1,65 @@
+.Checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #4caf50;
+  }
+  
+
+  .loading-message {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .order-id {
+    font-size: 24px;
+    color: #4caf50;
+    margin-top: 20px;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #8917ac;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5e1171;
+  }
+  

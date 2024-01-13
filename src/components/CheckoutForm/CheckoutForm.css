@@ -1,0 +1,69 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario2 {
+  width: 300px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.formulario2:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userName {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: #8917ac;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #5e1171;
+}

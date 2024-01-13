@@ -1,0 +1,46 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Controls {
+    display: flex;
+    align-items: center;
+}
+
+.Button {
+    display: block;
+    background-color: #8917ac;
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+
+.IncrementButton, .DecrementButton {
+    margin: 0 8px;
+}
+
+.IncrementButton:hover, .DecrementButton:hover {
+    background-color: #5e1171;
+}
+
+.AddToCartButton {
+    background-color: #8917ac;
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AddToCartButton:hover {
+    background-color: #5e1171;
+}

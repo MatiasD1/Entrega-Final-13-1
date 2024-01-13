@@ -1,0 +1,66 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; 
+  padding: 10px 20px; 
+  color: white;
+}
+
+.NavBar h3 {
+  margin: 0;
+  text-decoration: none;
+  color: white; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Categories {
+  display: flex;
+}
+
+
+.Option {
+  margin-right: 15px; 
+  text-decoration: none;
+  color: white; 
+}
+
+.ActiveOption {
+  display: block;
+  background-color: #e1110d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 10px; 
+}
+
+.CartWidget {
+  text-decoration: none;
+  color: white; 
+  display: flex;
+  align-items: center;
+}
+
+
+.CartWidget img {
+  width: 20px; 
+  height: auto;
+  margin-right: 5px;
+}
+
+.CartWidget .quantity {
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  position: relative;
+  top: -5px;
+  right: -5px;
+  z-index: 1;
+}
+
